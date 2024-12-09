@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: '';
+    
+    box-sizing: border-box;
+}
+body{
+background-color:#000000;
+}
+/* ======== Navbar ======== */
+.navbar1{
+    background-color:#000000;
+}
+.navbar2{
+    margin-left: 15rem;
+    font-size: 17px;  
+}
+.search1{
+    margin-left: 2rem;
+    width: 35rem;
+}
+.input1{
+    border-radius: 15px;
+}
+.button1{
+    border-radius: 15px;
+    width: 8rem;
+}
+
+/* ============ fashion Collection=============== */
+.container{
+    display: flex;
+    justify-content:center ;
+    padding: 20px;
+    gap: 20px;
+    flex-direction: row;
+    cursor: pointer;
+}
+.box{
+    width:250px;
+    margin:0 10px;
+    transition: 0.5s;
+ }
+ 
+ .box .img1{
+    display: block;
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+
+ }
+ .box:hover {
+    filter: grayscale(100%);
+    transform: scale(1.2) rotate(-1.5deg);
+    z-index: 2;
+    overflow: visible;
+    
+ }
+ .text1{
+    position: absolute;
+    top: 15px;
+    left: 10%;
+    margin-top:10rem;
+    margin-left: 1.1rem;
+   transition: 1s; 
+} 
+/* =============== Banner =================== */
+.banner{
+    padding-top: 3rem;
+}
+/* ================= Trending Collections   scroll 1========================= */
+.scroll-container{
+    width: 100%;
+    overflow-x:auto ;
+
+    white-space: nowrap;
+    margin-top: 1rem;
+    padding: 2rem;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.scroll-content{
+    display: inline-flex;
+}
+.item{
+    min-width: 300px;
+    height: 370px;
+    margin-right: 15px;
+    justify-content: center;
+}
+
+.off-ban{
+    margin-top: 10rem;
+}
+/* ================ hero =============== */
+.heroo{
+    margin-top: 20rem;
+}
+.hero{
+   color: white;
+   font-size: 50px;
+   text-align: center;
+}
+.hero1{
+    color: #cdcdcd;
+    font-size: 20px;
+    text-align: center;
+}
+.hero2{
+    margin-left: rem;
+}
+.hero2{
+    color: white;
+   font-size: 50px;
+   text-align: center; 
+   margin-left: 4rem;
+}
+.hero3{
+    color: #cdcdcd;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 4rem;
+}
+.herobtn{
+    margin-top:2rem ;
+    margin-left: 13rem;
+}
+.herobtn1{
+    margin-top:2rem ;
+    margin-left: 24rem;
+}
+.off-shoes{
+    margin-left: rem;
+}
+/* <!-- =============== SUBSCRIBE ==================== --> */
+
+.sub{
+    margin-top: 15rem;
+}
+.sub1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.sub2{
+    color: rgb(184, 184, 184);
+    font-size: 20px;
+    text-align: center;
+}
+.subs1{
+    border-radius: 10px;
+    width: 30rem;
+    height: 3rem;
+}
+.subs2{
+    margin-top: 1.5rem;
+    align-items: center;
+}
+
+/* =============== Footer ==================== */
+.foot{
+    width: 100%;
+    height: 20rem;
+    background-color: black;
+    margin-top: 5rem;  
+  
+
+}.foot-img{
+    margin-top: 2rem;
+    margin-left: rem;
+    width: 500px;
+    padding: 3rem;
+}
+.foot-txt{
+    
+   padding-left: 15rem;
+    padding: 2rem;
+}
+.footer1{
+    width:100%;
+    height: 20rem;
+    background-color: black;
+    /* padding-left: 10rem; */
+    color: white;
+  
+}
+.icon1 a{
+    font-size: 35px;
+    padding: .5rem;
+}
+/* .foot-txt1{
+    font-size: 2px;
+}
